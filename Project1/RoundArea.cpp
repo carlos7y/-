@@ -9,12 +9,12 @@ float areaOfACircle(float radius)
 int main()
 {
 	float r = 0;
-	float a;
+	float area;
 	printf("请输入圆的半径:\n");
 	scanf("%f", &r);
-	a = areaOfACircle(r);
+	area = areaOfACircle(r);
 	printf("这个圆的面积是");
-	printf("%f\n",a);
+	printf("%f\n",area);
 	return 0;
 }
 
