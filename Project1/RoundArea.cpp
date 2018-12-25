@@ -10,10 +10,10 @@ int main()
 {
 	float r = 0;
 	float area;
-	printf("请输入圆的半径:\n");
+	printf("请输入圆的半径: ");
 	scanf("%f", &r);
 	area = areaOfACircle(r);
-	printf("这个圆的面积是");
+	printf("这个圆的面积是 ");
 	printf("%f\n",area);
 	return 0;
 }
